@@ -11,10 +11,7 @@ export default class Product extends Component {
     }
 
     toggleDetail(product) {
-        console.log("SHOWING");
         product.showDetail = !product.showDetail;
-        // console.log(product);
-        // this.props.product.showDetail = !this.props.product.showDetail;
         this.setState({ showDetail: product.showDetail });
     }
 
@@ -46,7 +43,7 @@ export default class Product extends Component {
                     <div className="prices">
                         <label className="paid">We paid: <span>€{product.storeValue}</span></label>
                         <label className="now">Selling for: <span>€{product.value}</span></label>
-                        <label className="percentage">{(product.value * 100 / product.storeValue).toFixed(0)}</label>
+                        <label className="percentage">{(100 - (product.value * 100 / product.storeValue)).toFixed(0)}% OFF</label>
                     </div>
 
                 </div>
