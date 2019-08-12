@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9c4759258568a9a719eda86e80cad60a",
+    "revision": "620260e2267f0aa6b20b39f9cea4b852",
     "url": "/garage-sale/index.html"
   },
   {
-    "revision": "55c4541d7dc4b1df9be4",
-    "url": "/garage-sale/static/css/main.b3a2c4ca.chunk.css"
+    "revision": "c954e3db07010b04c74f",
+    "url": "/garage-sale/static/css/main.28c6fd26.chunk.css"
   },
   {
     "revision": "9c5ca2f4a5e34b4fd994",
     "url": "/garage-sale/static/js/2.be491123.chunk.js"
   },
   {
-    "revision": "55c4541d7dc4b1df9be4",
-    "url": "/garage-sale/static/js/main.d06f2548.chunk.js"
+    "revision": "c954e3db07010b04c74f",
+    "url": "/garage-sale/static/js/main.f0c531dd.chunk.js"
   },
   {
     "revision": "89b2342c1769917d3ace",
