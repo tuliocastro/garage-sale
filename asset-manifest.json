@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/garage-sale/static/css/main.a4737905.chunk.css",
+    "main.js": "/garage-sale/static/js/main.307a8be9.chunk.js",
+    "main.js.map": "/garage-sale/static/js/main.307a8be9.chunk.js.map",
+    "runtime~main.js": "/garage-sale/static/js/runtime~main.7454f598.js",
+    "runtime~main.js.map": "/garage-sale/static/js/runtime~main.7454f598.js.map",
+    "static/js/2.be491123.chunk.js": "/garage-sale/static/js/2.be491123.chunk.js",
+    "static/js/2.be491123.chunk.js.map": "/garage-sale/static/js/2.be491123.chunk.js.map",
+    "index.html": "/garage-sale/index.html",
+    "precache-manifest.f9550fcb0a286429d10cb7aee55bd203.js": "/garage-sale/precache-manifest.f9550fcb0a286429d10cb7aee55bd203.js",
+    "service-worker.js": "/garage-sale/service-worker.js",
+    "static/css/main.a4737905.chunk.css.map": "/garage-sale/static/css/main.a4737905.chunk.css.map"
+  }
+}
