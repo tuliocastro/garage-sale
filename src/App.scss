@@ -1,0 +1,17 @@
+.App {
+  background: #ededed;
+  height: 100%;
+  padding:20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.products {
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}

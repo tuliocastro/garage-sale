@@ -1,4 +1,101 @@
 .Product {
   background: white;
   box-shadow: 3px 5px 10px rgba(black, 0.2);
+  height: 300px;
+  width: 200px;
+  padding: 0 10px;
+  margin: 0 15px 15px 0;
+  text-align: center;
+  transition: .2s ease-in-out all;
+  position: relative;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  .sold-tape {
+    display: none;
+    transition: .2s linear all;
+  }
+
+  .title {
+    font-weight: 500;
+    font-size: 16px;
+    height: 50px;
+    padding:10px 0;
+    display: block;
+    color: #333;
+  }
+
+  .description {
+    display: block;
+    font-size: 17px;
+    color: #555;
+    font-weight: 400;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    line-height: 20px;
+    text-overflow: ellipsis;
+  }
+
+  .thumbnail {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 160px;
+    
+    img {
+      width: 100%;
+      position: absolute;
+      z-index: 100;
+      left:50%;
+      top:50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  .prices {
+    
+    label {
+      display: block;
+    }
+  }
+
+  &:hover {
+    cursor: pointer;
+    box-shadow: 3px 5px 13px rgba(black, 0.4);
+
+
+    .sold-tape {
+      opacity: .3;
+    }
+  }
+
+  &.sold {
+
+    filter: grayscale(1);
+
+    .title, .description {
+      color: rgb(109, 109, 109);
+    }
+    
+    .sold-tape {
+      height: 30px;
+      line-height: 30px;
+      display: block;
+      box-shadow: 1px 1px 5px rgba(black, 0.2);
+      background: #54a0ff;
+      color: white;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 17px;
+      text-shadow: 1px 1px 0 black;
+      position: absolute;
+      transform-origin: 50% 50%;
+      transform: rotate(-20deg);
+      top: 15%;
+      left: -25%;
+      width: 150%;
+      z-index: 500;
+    }
+  }
 }
