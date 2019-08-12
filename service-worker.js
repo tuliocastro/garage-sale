@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/garage-sale/precache-manifest.641e7f220a397f2831fbdb9b57358b2e.js"
+  "/garage-sale/precache-manifest.2dad1fabf2bfb7b6a039e9cbb18ccda0.js"
 );
 
 self.addEventListener('message', (event) => {
