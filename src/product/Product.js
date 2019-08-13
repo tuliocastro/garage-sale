@@ -51,6 +51,8 @@ export default class Product extends Component {
 
                 <div className={"thumbnails" + (this.state.showDetail ? " show-detail" : "")}>
 
+                    <p className="description">{this.props.product.description}</p>
+
                     <div className="button-close" onClick={this.toggleDetail.bind(this, product)}>x</div>
 
                     <div className="images">
