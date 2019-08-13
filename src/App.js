@@ -19,7 +19,7 @@ export default class App extends Component {
       { name: "Gym Carpet 8x tiles", description: "Protect the floor from weight damage and use to exercise.", sold: false, storeValue: 45.00, value: 25.00, category: "Gym", images: ["tile.jpeg", "tile2.jpeg", "tile3.jpeg"] },
       { name: "Dumbbel Set", description: "Used for only 2 months, 3 bars + 6 (5kg) + 4 (2.5kg) + 6 (1kg)", sold: false, storeValue: 65.00, value: 33.00, category: "Gym", images: ["dumbbell1.jpeg", "dumbbell2.jpeg", "dumbbell3.jpeg"] },
       { name: "Spinning Bike. Vida XL. Flywheel ", description: "Compact Spinning bike, Perfect for exercise in high intensity. Used for only 2 months, brand new with Computer functions. Bottle holder and belt drive", sold: false, storeValue: 165.00, value: 92.00, category: "Gym", images: ["byke.png"] },
-      { name: "Pilates ball ", description: "Brand new, with inflatter.", sold: false, storeValue: 8.00, value: 5.00, category: "Gym", images: ["ball1.jpeg", "ball2.jpeg", "ball3.jpeg"] },
+      { name: "Pilates ball ", description: "Brand new, with inflatter.", sold: false, storeValue: 11.00, value: 6.00, category: "Gym", images: ["ball1.jpeg", "ball2.jpeg", "ball3.jpeg"] },
     ];
   }
 
