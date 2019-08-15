@@ -9,7 +9,7 @@ export default class App extends Component {
     super(props);
     this.products = [
       { name: "Bathroom shelving unit with cabinet", description: "Size: 40x27x134 cm", sold: true, storeValue: 56.00, value: 25.00, category: "Home", images: ["bath_shelving1.webp", "bath_shelving2.webp"] },
-      { name: "Living room Coffee Table", description: "Base color: black, Size: 90x46 cm", sold: false, storeValue: 56.00, value: 25.00, category: "Home", images: ["table.jpeg", "table2.jpeg", "coffee_table.webp"] },
+      { name: "Living room Coffee Table", description: "Base color: black, Size: 90x46 cm", sold: true, storeValue: 56.00, value: 25.00, category: "Home", images: ["table.jpeg", "table2.jpeg", "coffee_table.webp"] },
       { name: "2x Pouffe", description: "The cover is easy to clean, is removable and can be machine washed. ", sold: false, storeValue: 130.00, value: 80.00, category: "Home", images: ["pouff.jpeg", "pouff2.jpeg", "pouffe1.webp"] },
       { name: "4x Lamp Shade", sold: true, storeValue: 25.00, value: 10.00, category: "Home", images: ["lampshade.png"] },
       { name: "Office Chair", description: "Color red. Structure in metal and light weight.", sold: false, storeValue: 25.00, value: 13.00, category: "Home", images: ["chair.jpeg"] },
